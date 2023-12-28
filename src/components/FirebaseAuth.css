@@ -1,0 +1,60 @@
+.AuthBackgroud {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .admin-login-container {
+    width: 100%;
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.878);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.657);
+    text-align: center;
+  }
+  
+  .auth-form {
+    text-align: left;
+  }
+
+  .auth-form p{
+    color: #ffffff;
+    font-weight: 600;
+  }
+  
+  .auth-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .error-message {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  .auth-button {
+    width: 100%;
+    padding: 10px;
+    background: #605F62;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .auth-button:hover {
+    background: #1e5c9fe1;
+  }
+  
+  .home-link {
+    color: #64b8fd;
+  }
+  
